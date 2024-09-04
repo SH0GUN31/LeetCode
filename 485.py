@@ -27,3 +27,10 @@ nums = [1,0,1,1,0,1]
 solution = Solution()
 answer = solution.findMaxConsecutiveOnes(nums)
 print(answer)
+
+"""
+Time Complexity:
+-> It is O(n) as we loop through n elements of the array.
+Space Complexity:
+-> It is O(1) as we only use few extra variables.
+"""
